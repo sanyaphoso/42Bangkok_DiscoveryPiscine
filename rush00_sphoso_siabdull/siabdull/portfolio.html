@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siabdull Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="name">SIABDULL (DREAM 24)</div>
+        <div class="menu">
+            <a href="../main.html">Home</a>
+            <a href="#pro">Profile</a>
+            <a href="#cert">Certificate</a>
+            <a href="#ab">About</a>
+        </div>
+    </div>
+
+    <div class="sec1" id="pro">
+        <div class="intail1">
+            <div class="profile-card">
+                <h1>プロフィール</h1>
+                <img src="./asset/profile.jpg" alt="Profile Picture" class="profile-pic" onclick="playSong(this)">
+                <audio id="myAudio" src="./asset/song2.mp3" loop></audio>
+                    <h2>Sira Abdulla (Dream 24)</h2>
+                    <p>KMITL engineer faculty</p>
+                    <p>Student ID 64015138</p>
+                    <p>Interesting in Gaming, Coding</p>
+                    <a href="https://www.facebook.com/dreamm.sira/" class="fa fa-facebook"></a>
+                    <a href="https://www.youtube.com/channel/UCeFg6OtP3UQuWGhvHl8ZdXw" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/itspercival_/" class="fa fa-instagram"></a>
+                    <a href="https://www.snapchat.com/th-TH" class="fa fa-snapchat-ghost"></a>
+                    <a href="https://github.com/SiraAB"" class="fa fa-github"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec2" id="cert">
+        <div class="intail2">
+            <h1 style="font-family: 'Courier New', Courier, monospace; background-color: rgba(90, 100, 243, 0.8); border: rgba(90, 100, 243, 0.8) 2px solid; border-radius: 10px;">Certificate</h1>
+            <img src="./asset/cert1.PNG" alt="Rotating Image" id="rotatingImage">
+            <div class="conbutton">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button class="modern-button" id="yesButton" onclick="yes()">Yes</button></a>
+                <button class="modern-button" id="noButton" onclick="hideNoButton()">No</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="sec3" id="ab">
+        <div class="intail3" id="cardContainer">
+            <div class="card">
+                <div>
+                    <h2 style="background-color: #d89eff; border: #d89eff 1px solid; border-radius: 10px; margin: 35px;">Personal information</h2>
+                </div>
+                <div class="info1">
+                    <p>My name is Dream. I am 23 years old. 
+                        I am studying in KMITL.
+                        In faculty of engineering.
+                    </p>
+                    <p style="font-weight: bold;">My Previous School</p>
+                    <p>Somsakulna School</p>
+                    <p>Sudjaivitaya School</p>
+                    <p>Setthabutbamphen School</p>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h2 style="background-color: #d89eff; border: #d89eff 1px solid; border-radius: 10px; margin: 35px;">Contact</h2>
+                </div>
+                <div class="info2">
+                    <p><a href="#" class="fa fa-facebook"></a>Facebook : <a href="https://www.facebook.com/dreamm.sira/">D'Dream Sira</a></p>
+                    <p><a href="#" class="fa fa-google"></a>Email : <a href="https://gmail.com">Dreamnaja555@gmail.com</a></p>
+                    <p><a href="#" class="fa fa-instagram"></a>Instagram : <a href="https://www.instagram.com/itspercival_/">itspercival</a></p>
+                    <p><a href="#" class="fa fa-github"></a>Github : <a href="https://github.com/SiraAB">SiraAB</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <h2 style="background-color: #d89eff; border: #d89eff 1px solid; border-radius: 10px; margin: 35px;">Hobby & Skills</h2>
+                </div>
+                <div class="info3">
+                    <p>In my free time i always
+                        play games and watch anime
+                        and read manga. I like to
+                        play games like FPS, RPG,
+                        and MOBA. I like to watch
+                        anime like action, fantasy
+                    </p>
+                    <p>Skills</p>
+                    <div class="containerskill">
+                        <div class="skills html">HTML 70%</div>
+                    </div>
+                    <div class="containerskill">
+                        <div class="skills css">CSS 50%</div>
+                    </div>
+                    <div class="containerskill">
+                        <div class="skills js">Javascript 40%</div>
+                    </div>
+                    <div class="containerskill">
+                        <div class="skills python">Python 40%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="conbguy">
+        <img id="myImage" src="./asset/bguy.jpg" onclick="changeImage()">
+        <h5 style="color: white; font-size: 2rem;" onclick="changeText()">↑↑Coding?? Click↑↑</h5>
+    </div>
+    
+</body>
+</html>
